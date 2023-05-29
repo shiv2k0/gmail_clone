@@ -1,0 +1,102 @@
+.mailbox{
+    flex: 0.79;
+    background-color: rgb(252, 253, 255);
+    margin: 1rem 0 1rem 0.5rem ;
+    padding-right:  1rem;
+    border-radius: 10px;
+    height: 88vh;
+    font-family: "Google Sans", sans-serif;
+}
+
+.mailbox_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.m_header-left{
+    color: rgb(72, 72, 72);
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+.m_checkbox{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.m_header-right{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem;
+    color: gray;
+}
+
+.mail_header-left{
+    display: flex;
+    gap: 1.2rem;
+    font-size: 20px;
+    color: rgb(96, 96, 96);
+    padding: 1rem;
+}
+
+.v_line{
+    border-left: 2px solid rgb(231, 231, 231);
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.mail{
+    padding: 1rem 3rem;
+}
+.mail h2{
+    font-weight: 300;
+}
+.mail img{
+    padding: 1rem 0;
+    border-radius: 100%;
+}
+
+.mail_info{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0;
+    justify-content: space-between;
+}
+.mail_info-left{
+    font-size: 13px;
+    font-weight:300;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: rgb(43, 43, 43);
+}
+.mail_info-right{
+    display: flex;
+    gap: 1.2rem;
+    color: rgb(84, 84, 84);
+    font-size: 15px;
+}
+.mail_info-right p{
+    font-weight: 300;
+}
+
+.mail_message{
+    padding: 1rem;
+}
+
+.mailbox__body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.mailbox__body span{
+    font-weight: bold;
+}

@@ -1,0 +1,66 @@
+.mail_compose {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  background-color: white;
+  width: 40%;
+  height: 40%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid whitesmoke;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.24);
+  font-family: sans-serif;
+}
+
+.compose_header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #404040;
+  padding: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+}
+
+.compose_header h3 {
+  color: whitesmoke;
+  font-size: 13px;
+}
+
+.compose_close {
+  cursor: pointer;
+}
+
+.mail_compose form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.mail_compose form input {
+  height: 30px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  outline: none;
+}
+.compose_message {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  /* border-bottom: 1px solid whitesmoke; */
+  outline: none;
+}
+
+.compose_send {
+  background-color: #3079ed !important;
+  text-transform: capitalize !important;
+  /* margin: 15px !important; */
+  color: white;
+  border: none;
+  font-weight: bold;
+  margin: 5px;
+  border-radius: 2rem;
+  padding: 10px 25px;
+}

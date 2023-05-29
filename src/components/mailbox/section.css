@@ -1,0 +1,28 @@
+.mailbox_section{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.section{
+    border-bottom: 1px solid rgb(225, 225, 225);
+    flex: 1;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+    font-weight: 400;
+    color: grey;
+}
+.section:hover{
+    cursor: pointer;
+    background-color: rgb(243, 243, 243);
+
+}
+
+.section--selected{
+    color: rgb(0, 92, 212);
+    border-bottom: 3px solid rgb(0, 92, 212);
+    border-radius: 1px;
+}

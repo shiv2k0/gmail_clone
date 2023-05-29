@@ -1,0 +1,9 @@
+.app{
+    background-color: rgb(240, 246, 255);
+    min-height: 80vh;
+    padding: 0.5rem 0 ;
+}
+
+.main_body{
+    display: flex;
+}

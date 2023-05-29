@@ -1,0 +1,89 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    background-color: rgb(242, 247, 255);;
+}
+
+.header_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 1rem;
+    gap: 1rem;
+    
+}
+
+.left_menu_container{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    
+}
+.left_menu_container:hover{
+
+    background-color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+
+
+.header_search{
+    display: flex;
+    align-items: center;
+    background-color: rgb(228, 239, 255);
+    width: 50%;
+    border-radius: 2rem;
+    padding:  0 1rem;
+}
+
+.header_search input{
+    width: 100%;
+    margin: 0 1rem;
+    height: 1.5rem;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    
+}
+.header_search input:focus{
+    border: none;
+    outline: none;
+}
+
+
+.gmail_logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.active_status{
+    display: flex;
+    align-items: center;
+    background-color: rgb(229, 239, 254);
+    padding: 1rem 1rem ;
+    border-radius: 2rem;
+    gap: 5px;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 2rem;
+}
+
+.active_status img{
+    width: 15px;
+}
+
+.header_profile img{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 100%;
+}
